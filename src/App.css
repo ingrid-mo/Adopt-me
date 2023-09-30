@@ -1,0 +1,91 @@
+.bighero {
+  position: relative;
+  top: -130px;
+  right: -20px;
+  z-index: -1;
+}
+.navbar{
+  justify-content: space-around !important;
+  align-items: flex-start !important;
+    gap: 58% !important;
+    font-size: 20px;
+
+}
+.logo{
+  width: 60%;
+}
+.title_bighero {
+  font-family: "Laila", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 86vh;
+}
+h1 {
+  height: 30%;
+  text-align: center;
+  width: 35%;
+  font-weight: 600;
+}
+.button-warning {
+  border-radius: 8px;
+  color: #fff;
+  margin-top: 5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  justify-items: center;
+}
+.card-img {
+  height: 55%;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.card__body {
+  height: 0px;
+  border: none;
+  border-radius: 10px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cards__card {
+  width: 18rem;
+  height: 80%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.card { 
+    border: 0px !important
+}
+.pill{
+    position: absolute;
+    left: 12px;
+    top: 5px;
+}
+.bg-pink {
+  background-color: pink;
+}
+.footer__text{
+  background-color: #FF594D;
+}
+.footer__img{
+  z-index: -1;
+position: relative;
+bottom: -50px;
+}
+.footer{
+  height: auto;
+  text-align: center;
+  color: #fff;
+  font-family: "Laila", sans-serif;
+
+}
